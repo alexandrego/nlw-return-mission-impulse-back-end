@@ -18,5 +18,24 @@
 5. Instalamos o Express</br>
    ```npm i express```</br>
    ```npm i -D @types/express```</br>
+6. Seguimos com a instalação do Prisma para uso em desenvolvimento.</br>
+   ```npm i prisma -D```</br>
+7. E esta dependência para uso em Produção.</br>
+   ```npm i @prisma/client```</br>
+8. Iniciamos o prisma com o comando abaixo.</br>
+   ```npx prisma init```</br>
+9. Instalar a extenção do Prisma.</br>
+    -> Prisma -> Adds syntax highlighting...</br>
+    -> Dentro das configurações do VSCode no arquivo settings.json, habilitar o "editor.formatOnSave" : true</br>
+    ```,```
+    ```"[prisma]" : {```
+        ```"editor.formatOnSave" : true```
+    ```},```</br>
+10. Executaremos o seguinte comando apos criarmos o schema do model do banco no arquivo schema.prisma.</br>
+    ```npx prisma migrate dev```</br>
+11. Dev, porque estamos em ambiente de desenvolvimento, caso fosse em produção utiliziarimos o deploy no final do comando.</br>
+12. Apos a execução do comando acima, vamos dar um nome para a ação que fizemos -> "create table feedbacks"</br>
+13. Para visualizarmos as tabelas criadas no banco, basta utilizarmos o seguinte comando no terminal.</br>
+    ```npx prisma studio```</br>
 
-   Continuar 3º apartir de 16:04min...
+   Continuar 3º apartir de 35:39min...
